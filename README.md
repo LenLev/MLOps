@@ -113,7 +113,7 @@ versions.py — эндпоинты /versions/...
 | поле | тип | описание |
 |---|---|---|
 | id | INTEGER PK | |
-| model_id | INTEGER FK → models.id | связь с моделью, CASCADE DELETE |
+| model_id | INTEGER FK - models.id | связь с моделью, CASCADE DELETE |
 | version | TEXT NOT NULL ||
 | path | TEXT NOT NULL ||
 | stage | TEXT | staging / production / archived |
